@@ -15,6 +15,7 @@
 		000000000000000000000017 /* MP3ConversionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000011 /* MP3ConversionService.swift */; };
 		000000000000000000000024 /* YTDLPDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000022 /* YTDLPDownloader.swift */; };
 		AA3300000000000000000002 /* SwiftLAME in Frameworks */ = {isa = PBXBuildFile; productRef = AA2200000000000000000002 /* SwiftLAME */; };
+		E6406A3C30A01F6F00B3FF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6406A3B30A01F6F00B3FF8E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		000000000000000000000010 /* YouTubePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubePlayer.swift; sourceTree = "<group>"; };
 		000000000000000000000011 /* MP3ConversionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP3ConversionService.swift; sourceTree = "<group>"; };
 		000000000000000000000022 /* YTDLPDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTDLPDownloader.swift; sourceTree = "<group>"; };
+		E6406A3B30A01F6F00B3FF8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		00000000000000000000000B /* YouTubeMacMP3 */ = {
 			isa = PBXGroup;
 			children = (
+				E6406A3B30A01F6F00B3FF8E /* Assets.xcassets */,
 				00000000000000000000000C /* YouTubeMacMP3App.swift */,
 				00000000000000000000000D /* ContentView.swift */,
 				00000000000000000000000E /* Video.swift */,
@@ -132,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6406A3C30A01F6F00B3FF8E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +183,8 @@
 		00000000000000000000001A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+								CODE_SIGNING_ALLOWED = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -201,7 +206,8 @@
 		00000000000000000000001B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+								CODE_SIGNING_ALLOWED = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
