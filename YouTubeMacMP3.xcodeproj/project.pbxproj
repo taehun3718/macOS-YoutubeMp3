@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000012 /* YouTubeMacMP3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000C /* YouTubeMacMP3App.swift */; };
+		000000000000000000000013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000D /* ContentView.swift */; };
+		000000000000000000000014 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000E /* Video.swift */; };
+		000000000000000000000015 /* SearchParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000F /* SearchParser.swift */; };
+		000000000000000000000016 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000010 /* YouTubePlayer.swift */; };
+		000000000000000000000017 /* MP3ConversionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000011 /* MP3ConversionService.swift */; };
+		000000000000000000000024 /* YTDLPDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000022 /* YTDLPDownloader.swift */; };
+		AA3300000000000000000002 /* SwiftLAME in Frameworks */ = {isa = PBXBuildFile; productRef = AA2200000000000000000002 /* SwiftLAME */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00000000000000000000000A /* YouTubeMacMP3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = YouTubeMacMP3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000000000000000000C /* YouTubeMacMP3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeMacMP3App.swift; sourceTree = "<group>"; };
+		00000000000000000000000D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00000000000000000000000E /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		00000000000000000000000F /* SearchParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchParser.swift; sourceTree = "<group>"; };
+		000000000000000000000010 /* YouTubePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubePlayer.swift; sourceTree = "<group>"; };
+		000000000000000000000011 /* MP3ConversionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP3ConversionService.swift; sourceTree = "<group>"; };
+		000000000000000000000022 /* YTDLPDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTDLPDownloader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3300000000000000000002 /* SwiftLAME in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000B /* YouTubeMacMP3 */,
+				000000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000A /* YouTubeMacMP3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00000000000000000000000B /* YouTubeMacMP3 */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000C /* YouTubeMacMP3App.swift */,
+				00000000000000000000000D /* ContentView.swift */,
+				00000000000000000000000E /* Video.swift */,
+				00000000000000000000000F /* SearchParser.swift */,
+				000000000000000000000010 /* YouTubePlayer.swift */,
+				000000000000000000000011 /* MP3ConversionService.swift */,
+				000000000000000000000022 /* YTDLPDownloader.swift */,
+			);
+			path = YouTubeMacMP3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000001 /* YouTubeMacMP3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000006 /* Build configuration list for PBXNativeTarget "YouTubeMacMP3" */;
+			buildPhases = (
+				000000000000000000000007 /* Sources */,
+				000000000000000000000008 /* Resources */,
+				000000000000000000000009 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubeMacMP3;
+			packageProductDependencies = (
+				AA2200000000000000000002 /* SwiftLAME */,
+			);
+			productName = YouTubeMacMP3;
+			productReference = 00000000000000000000000A /* YouTubeMacMP3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					000000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 000000000000000000000002 /* Build configuration list for PBXProject "YouTubeMacMP3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000003;
+			packageReferences = (
+				AA1100000000000000000002 /* XCRemoteSwiftPackageReference "SwiftLAME" */,
+			);
+			productRefGroup = 000000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000001 /* YouTubeMacMP3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000012 /* YouTubeMacMP3App.swift in Sources */,
+				000000000000000000000013 /* ContentView.swift in Sources */,
+				000000000000000000000014 /* Video.swift in Sources */,
+				000000000000000000000015 /* SearchParser.swift in Sources */,
+				000000000000000000000016 /* YouTubePlayer.swift in Sources */,
+				000000000000000000000017 /* MP3ConversionService.swift in Sources */,
+				000000000000000000000024 /* YTDLPDownloader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		000000000000000000000019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		00000000000000000000001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SK84MWM2L8;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "YouTube Mac MP3";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.YouTubeMacMP3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00000000000000000000001B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SK84MWM2L8;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "YouTube Mac MP3";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.YouTubeMacMP3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000002 /* Build configuration list for PBXProject "YouTubeMacMP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000018 /* Debug */,
+				000000000000000000000019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000006 /* Build configuration list for PBXNativeTarget "YouTubeMacMP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000001A /* Debug */,
+				00000000000000000000001B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA1100000000000000000002 /* XCRemoteSwiftPackageReference "SwiftLAME" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hidden-spectrum/SwiftLAME.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA2200000000000000000002 /* SwiftLAME */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA1100000000000000000002 /* XCRemoteSwiftPackageReference "SwiftLAME" */;
+			productName = SwiftLAME;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 000000000000000000000005 /* Project object */;
+}
